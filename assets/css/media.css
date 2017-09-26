@@ -1,0 +1,271 @@
+/*IPAD AND TABLETS STYLINGS*/
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+   
+    .header{
+    	height: auto;
+    }
+	.nav-wrapper{
+		margin: 0;
+		width: 100%;
+	}
+	.item-wrapper .tag{
+		display: block;
+	}
+	.reservation-title{
+		padding: 30px;
+	}
+	#reservation{
+		background-size: cover;
+		padding-bottom: 100px;
+	}
+	.res-form{
+		margin-top: 40px;
+		padding-bottom: 30px;
+	}
+	#About{
+		background-repeat: repeat-x;
+		background-size: cover;
+	}	
+	.item-wrapper{
+		margin-top: 20px;
+	}
+	.item-wrapper .tag h4{
+		font-size: 15px;
+	}
+	.item-wrapper .tag p{
+		color: whitesmoke;
+		font-size: 14px;
+	}
+	.dish-menu{
+		margin-top: 50px;
+	}
+	.menu{
+		margin-top: 30px;
+	}
+	#location{
+		padding-bottom: 50px;
+	}
+	.location{
+		padding: 20px;
+		margin-top: 20px;
+	}
+	.contact-title{
+		margin-top: 30px;
+	}
+	.con-info{
+		padding-bottom: 45px;
+	}
+
+}  
+
+/*MEDIUM DEVICES STYLING*/
+
+@media only screen and (min-width: 321px) and (max-width: 767px){
+	
+	.header{
+		background: rgba(70, 57, 57, 0.93);
+		height: auto;
+		
+	}
+	.sticky{
+		background: #f2f0f0;
+	}
+	.nav-wrapper{
+		margin: 0;
+		width: 100%;
+	}
+	#brand img{
+		height: 60px;
+	}
+	#menu-wrap .cart img{
+		max-height: 30px;
+		margin-top: -20px;
+		margin-right: 15px;
+	}
+	.cap1-wrapper h3{
+		font-size: 22px;
+	}
+	.cap1-wrapper,.cap2, .cap3, .cap4, .cap5{
+		top: 15%;
+	}
+	.cap1-wrapper h1,.cap2 h2, .cap3 h2, .cap4 h2, .cap5 h2{
+		font-size: 38px;
+	}
+	.cap1-wrapper .down{
+		margin-top: 30px;
+	}
+	.cap2 .down, .cap3 .down, .cap4 .down,.cap5 .down{
+		margin-top: 80px;
+	}
+	#carousel a .nav{
+		top: 40%;
+		font-size:16px;
+		position: absolute;
+	}
+	.nav-section{
+		padding-top: 60px;
+	}
+	#About{
+		background-repeat: repeat-x;
+		background-size: cover;
+		padding-bottom: 50px;
+	}
+	.about-title h3{
+		font-size: 20px;
+		padding-bottom: 0px;
+	}
+	.about-title h3::before, .about-title h3::after{
+		display: none;
+	}
+	.dish-menu{
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	.dish-menu h2{
+		color: #dddddd;
+	}
+	.dish-menu h2::before, .dish-menu h2::after, .location h2::before, .location h2::after,
+	.contact-title h2::before, .contact-title h2::after{
+		display: none;
+	}
+	.item-wrapper{
+		margin-top: -20px;
+	}
+	.item-wrapper .tag{
+		display: block;
+	}
+	.item-wrapper .tag h4{
+		font-size: 16px;
+	}
+	.item-wrapper .tag p{
+		color: whitesmoke;
+		font-size: 14px;
+	}
+	.reservation-title h2, .location h2, .contact-title h2{
+		font-size: 20px;
+	}
+	.res-form h5{
+		font-size: 16px;
+	}
+	.res-form .date{
+		/*background: whitesmoke;*/
+		padding: 5px;
+	}
+	.res-form .res-info{
+		margin-top: 10px;
+	}
+	.contact-title{
+		padding-bottom: 10px;
+		margin-top: 10px;
+	}
+	.contact-note h5{
+		font-size: 16px;
+	}
+
+
+}
+
+
+/*SMALLEST DEVICE*/
+@media only screen  and (max-width: 321px){
+	.header{
+		background: rgba(70, 57, 57, 0.93);
+		height: auto;
+	}
+	.sticky{
+		background: #f2f0f0;
+	}
+	.nav-wrapper{
+		margin: 0;
+		width: 100%;
+	}
+	#menu-wrap .cart img{
+		max-height: 30px;
+		margin-top: -20px;
+		margin-right: 15px;
+	}
+	#brand img{
+		height: 60px;
+	}
+	.cap1-wrapper h3{
+		font-size: 20px;
+	}
+	.cap1-wrapper,.cap2, .cap3, .cap4, .cap5{
+		top: 15%;
+	}
+	.cap1-wrapper h1,.cap2 h2, .cap3 h2, .cap4 h2, .cap5 h2{
+		font-size: 35px;
+	}
+	.cap1-wrapper .down{
+		margin-top: 10px;
+	}
+	.cap2 .down, .cap3 .down, .cap4 .down,.cap5 .down{
+		margin-top: 80px;
+	}
+	#carousel a .nav{
+		top: 40%;
+		font-size:16px;
+		position: absolute;
+	}
+	.nav-section{
+		padding-top: 60px;
+	}
+	#About{
+		background-repeat: repeat-x;
+		background-size: cover;
+		padding-bottom: 50px;
+	}
+	.about-title h3{
+		font-size: 17px;
+		padding-bottom: 0px;
+	}
+	.about-title h3::before, .about-title h3::after{
+		display: none;
+	}
+	.dish-menu{
+		padding-top: 40px;
+		padding-bottom: 30px;
+	}
+	.dish-menu h2{
+		color: #dddddd;
+	}
+	.dish-menu h2::before, .dish-menu h2::after, .location h2::before, .location h2::after,
+	.contact-title h2::before, .contact-title h2::after{
+		display: none;
+	}
+	.item-wrapper{
+		margin-top: -20px;
+	}
+	.item-wrapper .tag{
+		display: block;
+	}
+	.item-wrapper .tag h4{
+		font-size: 15px;
+	}
+	.item-wrapper .tag p{
+		color: whitesmoke;
+		font-size: 13px;
+	}
+	.reservation-title h2, .location h2, .contact-title h2{
+		font-size: 18px;
+	}
+	.res-form h5{
+		font-size: 16px;
+	}
+	.res-form .date{
+		/*background: whitesmoke;*/
+		padding: 5px;
+	}
+	.res-form .res-info{
+		margin-top: 10px;
+	}
+	.contact-title{
+		padding-bottom: 10px;
+		margin-top: 10px;
+	}
+	.contact-note h5{
+		font-size: 16px;
+	}
+
+}

@@ -1,0 +1,66 @@
+
+.slides{
+	height: 100vh;
+}
+#carousel .item img{
+	height: 100vh;
+	width: 100%;
+}
+#carousel .carousel-indicators li{
+	background-color: #14a325;
+}
+#carousel .carousel-indicators .active{
+	background-color: yellow;
+}
+#carousel a .nav{
+    position: relative;
+    top: 40%;
+}
+.cap1-wrapper,.cap2, .cap3, .cap4, .cap5{
+	position: absolute;
+	top: 20%;
+}
+.cap1-wrapper h1{
+	font-size: 70px;
+	font-weight: 700;
+	color: #ededed;
+	font-family:'raleway',sans-serif;
+}
+.cap1-wrapper h3{
+	font-family:'raleway',sans-serif;
+	margin-top: 35px;
+	line-height: 30px;
+	color: #FFF8AF;
+}
+.cap1-wrapper .down, .cap2 .down{
+	font-family:'raleway',sans-serif;
+	margin-top: 200px;
+}
+.cap2 h2, .cap3 h2, .cap4 h2, .cap5 h2{
+	font-size: 65px;
+	font-weight: 700;
+	color: #ededed;
+	font-family:'raleway',sans-serif;
+}
+ .cap4 .down, .cap3 .down{
+ 	background: transparent;
+ 	transition: all 0.5s ease-in;
+ 	font-family:'raleway',sans-serif;
+	margin-top: 200px;
+	border:2px solid yellow;
+ }
+ .cap4 .down:hover, .cap3 .down:hover{
+ 	color: #fff;
+ 	background: #FFF212;
+ }
+ .cap5 .down{
+ 	background: transparent;
+ 	font-family:'raleway',sans-serif;
+	margin-top: 200px;
+	border:2px solid #3A8732;
+	transition: all 0.5s ease-in;
+ }
+  .cap5 .down:hover{
+  	color: #fff;
+  	background: #3A8732;
+  }
